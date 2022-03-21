@@ -23,30 +23,30 @@ let dog = {
 
 
 
-document.getElementById('owner').innerHTML = dog.otherData.owner 
-document.body.style.backgroundColor = dog.backgroundColor 
-document.getElementById("price").innerHTML= dog.price
-document.getElementById('text').innerHTML = dog.description
-document.getElementById('NFT').src= dog.nft
-//document.getElementsByClassName('.container').style.backgroundColor= dog.cardColor
-document.querySelector('.container').style.backgroundColor = dog.cardColor
-document.getElementById('days').innerHTML = dog.otherData.daysLeft 
-document.getElementById('profile').src = dog.otherData.profileImg
-document.getElementById('texts').innerHTML = dog.name
+// document.getElementById('owner').innerHTML = dog.otherData.owner 
+// document.body.style.backgroundColor = dog.backgroundColor 
+// document.getElementById("price").innerHTML= dog.price
+// document.getElementById('text').innerHTML = dog.description
+// document.getElementById('NFT').src= dog.nft
+// //document.getElementsByClassName('.container').style.backgroundColor= dog.cardColor
+// document.querySelector('.container').style.backgroundColor = dog.cardColor
+// document.getElementById('days').innerHTML = dog.otherData.daysLeft 
+// document.getElementById('profile').src = dog.otherData.profileImg
+// document.getElementById('texts').innerHTML = dog.name
 
 
-document.getElementById("NFT").addEventListener("click",function(){
-    document.getElementById("NFT").src = "https://media-exp1.licdn.com/dms/image/C4D03AQE5q7rMuB44Uw/profile-displayphoto-shrink_200_200/0/1638316957507?e=1650499200&v=beta&t=ofX0g4zLdGzZ2rYvOYh2Uvwgl6CfpzMEHbXFTai0wpo"
+// document.getElementById("NFT").addEventListener("click",function(){
+//     document.getElementById("NFT").src = "https://media-exp1.licdn.com/dms/image/C4D03AQE5q7rMuB44Uw/profile-displayphoto-shrink_200_200/0/1638316957507?e=1650499200&v=beta&t=ofX0g4zLdGzZ2rYvOYh2Uvwgl6CfpzMEHbXFTai0wpo"
     
-})
+// })
 
 
-document.getElementById('texts').addEventListener("click",function(){
+// document.getElementById('texts').addEventListener("click",function(){
    
-    if(document.getElementById('texts').style.color == 'green') {
-        document.getElementById('texts').style.color = 'white'
+//     if(document.getElementById('texts').style.color == 'green') {
+//         document.getElementById('texts').style.color = 'white'
         
-    } else {
-        document.getElementById('texts').style.color = 'green'
-    }
-})
+//     } else {
+//         document.getElementById('texts').style.color = 'green'
+//     }
+// })
